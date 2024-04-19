@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #FF3300;
+        }
+        #encabezado {
+            display: grid;
+            justify-content: center;
+        }
+        #principal{
+            background-color: #ffffff;
+            padding: 5%;
+        }
+        #encabezado #titulo {
+            color: white;
+            border-bottom: #F5F5F5 solid 0.2rem;
+        }
+        #encabezado #titulo span{
+            padding-left: 10%;
+        }
+        
+        #principal .contenedor1 {
+            background-color: #F5F5F5;
+            margin: 5px;
+            border: solid #D9D9D9 0.2rem;
+        }
+        .contenedor2 {
+            padding: 5%;
+        }
+        .img {
+            width: 75%;
+            height: 10%;
+        }
+        #principal .contenedor1 .contenedor2 .prod {
+            color: #FC6709;
+            font-size: 1.5rem;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+        }
+        footer p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header id="encabezado">
+        <h1 id="titulo">
+            <span>Bienvenido a Nuestra</span><br>
+            Landing Page de Colombia
+        </h1>
+    </header>
+    <main id="principal">
+        <div class="contenedor1">
+            <div class="contenedor2">
+                <img class="img" src="../HTML-CSS/img/hamburguesa1.jpg" alt="img">
+                <h2 class="prod">Producto 1</h2>
+                <p>
+                    Descrición del producto. Lorem ipsum dolor sit amet consectetur adipisictatum tenetur?
+                </p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+        <div class="contenedor1">
+            <div class="contenedor2">
+                <img class="img" src="../HTML-CSS/img/hamburguesa2.jpg" alt="img">
+                <h2 class="prod">Producto 2</h2>
+                <p>
+                    Descrición del producto. Lorem ipsum dolor sit amet consectetur adipisictatum tenetur?
+                </p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2023 Mi Landing Page Compleja</p>
+    </footer>
+</body>
+</html>
